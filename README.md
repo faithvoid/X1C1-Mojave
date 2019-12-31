@@ -32,6 +32,7 @@ Lain's X1 Carbon Specs:
 - Brightness Keys (requires DSDT patching, which I'm still learning about.)
 - You tell me.
 - Microphone doesn't register for some reason.
+- Using two USB devices that require a more than a modicrum of power. Whenever I hook up my Akai Midi and my Blackberry KeyOne, I get an error that whatever was added last is not getting enough power. This is most likely an issue that needs DSDT patching.
 
 ## Untested:
 - Mini-Displayport output
