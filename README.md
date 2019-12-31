@@ -1,7 +1,7 @@
 # Lain's X1 Carbon 1st Gen macOS Repository
 A repository of information and kexts for running macOS Mojave on the X1 Carbon 1st Generation.
 
-Any discoveries and forks to get full functionality are much appreciated!
+Any discoveries and forks to get full functionality are much appreciated! I can't provide support on any of this really, but you can do whatever you want with these files.
 
 Lain's X1 Carbon Specs:
 - Model: 3448A47
@@ -24,11 +24,13 @@ Lain's X1 Carbon Specs:
 - USB support, mostly (plugging in two will cause one to not receive enough power according to the OS, needs to be rectified via DSDT.)
 - SD Card Support
 - Filevault
+- APFS
 
 ## What Doesn't Work:
 - Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card).
 - Brightness Keys (requires DSDT patching, which I'm still learning about.)
-- 
+- You tell me.
+
 ## Untested:
 - Mini-Displayport output
 - Microphone
