@@ -6,11 +6,11 @@ Any discoveries and forks to get full functionality are much appreciated! I can'
 Lain's X1 Carbon Specs:
 - Model: 3448A47
 - BIOS: G6ETC5WW (2.85 )
-- CPU: Intel Core i5 (3rd Gen) 3427U / 1.8 GHz 
-- GPU: Intel HD Graphics 4000 
-- RAM: 8GB DDR3L SDRAM
-- Bluetooth Card: Broadcom Corp. BCM20702 Bluetooth 4.0 [ThinkPad]
-- Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96)
+- CPU: Intel Core i5 (3rd Gen) 3427U / 1.8 GHz (Compatible w/ Clover modifications) 
+- GPU: Intel HD Graphics 4000 (Compatible)
+- RAM: 8GB DDR3L SDRAM (Compatible)
+- Bluetooth Card: Broadcom Corp. BCM20702 Bluetooth 4.0 [ThinkPad] (Compatible)
+- Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96) (Not Compatible)
 
 ## What Works:
 - Booting
@@ -22,6 +22,7 @@ Lain's X1 Carbon Specs:
 - Touchpad (registers as only a mouse so no real gesture support).
 - Trackpoint, partially. (works randomly, but don't count on it.)
 - USB support, mostly (plugging in two will cause one to not receive enough power according to the OS, needs to be rectified via DSDT.)
+- Bluetooth Support (haven't tried any Handoff/etc. stuff but it works well enough to connect to my phone's network.)
 - SD Card Support
 - Filevault
 - APFS
@@ -30,9 +31,9 @@ Lain's X1 Carbon Specs:
 - Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card).
 - Brightness Keys (requires DSDT patching, which I'm still learning about.)
 - You tell me.
+- Microphone doesn't register for some reason.
 
 ## Untested:
 - Mini-Displayport output
-- Microphone
 - USB Sleep Charging
 - Lots of other things, I'm sure. 
