@@ -36,6 +36,7 @@ Lain's X1 Carbon Specs:
 - You tell me.
 
 ## Untested:
+- Facetime / iMessage / etc. (I don't have an iPhone to use iMessage with so YMMV.)
 - Mini-Displayport output
 - USB Sleep Charging
 - Lots of other things, I'm sure. 
