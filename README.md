@@ -16,11 +16,11 @@ Lain's X1 Carbon Specs:
 - Booting
 - GPU Acceleration
 - Sound (including controls, microphone mute doesn't work)
+- Keyboard / Trackpad (with full gesture functionality)
 - Webcam
-- MIDI devices (used an Akai MPK II in GarageBand just fine)
+- Battery Status
+- MIDI devices 
 - Brightness (not via controls but via the Display section manually).
-- Touchpad (registers as only a mouse so no real gesture support).
-- Trackpoint, partially. (works randomly, but don't count on it.)
 - USB support, mostly (plugging in two will cause one to not receive enough power according to the OS, needs to be rectified via DSDT.)
 - Bluetooth Support (haven't tried any Handoff/etc. stuff but it works well enough to connect to my phone's network.)
 - SD Card Support
@@ -30,9 +30,9 @@ Lain's X1 Carbon Specs:
 ## What Doesn't Work:
 - Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card).
 - Brightness Keys (requires DSDT patching, which I'm still learning about.)
-- Battery Information
 - Microphone doesn't register for some reason.
 - Using two USB devices that require a more than a modicrum of power. Whenever I hook up my Akai Midi and my Blackberry KeyOne, I get an error that whatever was added last is not getting enough power. This is most likely an issue that needs DSDT patching.
+- Trackpoint works maybe 10% of the time.
 - You tell me.
 
 ## Untested:
