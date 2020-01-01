@@ -30,9 +30,10 @@ Lain's X1 Carbon Specs:
 ## What Doesn't Work:
 - Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card).
 - Brightness Keys (requires DSDT patching, which I'm still learning about.)
-- You tell me.
+- Battery Information
 - Microphone doesn't register for some reason.
 - Using two USB devices that require a more than a modicrum of power. Whenever I hook up my Akai Midi and my Blackberry KeyOne, I get an error that whatever was added last is not getting enough power. This is most likely an issue that needs DSDT patching.
+- You tell me.
 
 ## Untested:
 - Mini-Displayport output
