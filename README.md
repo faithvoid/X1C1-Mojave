@@ -6,11 +6,11 @@ Any discoveries and forks to get full functionality are much appreciated! I can'
 Lain's X1 Carbon Specs:
 - Model: 3448A47
 - BIOS: G6ETC5WW (2.85 )
-- CPU: Intel Core i5 (3rd Gen) 3427U / 1.8 GHz 
+- CPU: Intel Core i5-3427U @ 1.8 GHz 
 - GPU: Intel HD Graphics 4000 
 - RAM: 8GB DDR3L SDRAM 
 - Bluetooth Card: Broadcom Corp. BCM20702 Bluetooth 4.0 [ThinkPad]
-- Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96) (Not Compatible)
+- Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96) ## (Not Compatible)
 
 ## What Works:
 Virtually everything.
