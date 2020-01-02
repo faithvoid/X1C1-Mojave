@@ -25,4 +25,5 @@ Virtually everything.
 - Facetime / iMessage / etc. (I don't have an iPhone to use iMessage with so YMMV.)
 - Mini-Displayport output
 - USB Sleep Charging
+- Bluetooth Hand-Off
 - Lots of other things, I'm sure. 
