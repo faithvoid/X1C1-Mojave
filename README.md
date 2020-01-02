@@ -10,7 +10,7 @@ Lain's X1 Carbon Specs:
 - GPU: Intel HD Graphics 4000 
 - RAM: 8GB DDR3L SDRAM 
 - Bluetooth Card: Broadcom Corp. BCM20702 Bluetooth 4.0 [ThinkPad]
-- Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96) ## (Not Compatible)
+- Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96) (Not Compatible)
 
 ## What Works:
 Virtually everything.
