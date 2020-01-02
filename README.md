@@ -13,25 +13,11 @@ Lain's X1 Carbon Specs:
 - Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96) (Not Compatible)
 
 ## What Works:
-- Booting
-- GPU Acceleration
-- Sound (including controls, microphone mute doesn't work)
-- Keyboard / Trackpad (with full gesture functionality)
-- Webcam
-- Battery Status
-- MIDI devices 
-- Brightness (not via controls but via the Display section manually).
-- USB support, mostly (plugging in two will cause one to not receive enough power according to the OS, needs to be rectified via DSDT.)
-- Bluetooth Support (haven't tried any Handoff/etc. stuff but it works well enough to connect to my phone's network.)
-- SD Card Support
-- Filevault
-- APFS
+Virtually everything.
 
 ## What Doesn't Work:
 - Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card).
-- Brightness Keys (requires DSDT patching, which I'm still learning about.)
-- Microphone doesn't register for some reason.
-- Using two USB devices that require a more than a modicrum of power. Whenever I hook up my Akai Midi and my Blackberry KeyOne, I get an error that whatever was added last is not getting enough power. This is most likely an issue that needs DSDT patching.
+- Microphone and microphone mute button don't register for some reason.
 - Trackpoint works maybe 10% of the time.
 - You tell me.
 
