@@ -4,15 +4,23 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
+		<key>AutoMerge</key>
+		<false/>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
 			<dict>
+				<key>AddDTGP</key>
+				<false/>
 				<key>AddHDMI</key>
 				<true/>
 				<key>AddMCHC</key>
 				<true/>
 				<key>AddPNLF</key>
+				<true/>
+				<key>FixAirport</key>
+				<false/>
+				<key>FixDisplay</key>
 				<true/>
 				<key>FixHDA</key>
 				<false/>
@@ -22,9 +30,15 @@
 				<true/>
 				<key>FixRTC</key>
 				<true/>
+				<key>FixRegions</key>
+				<false/>
+				<key>FixSBUS</key>
+				<true/>
 				<key>FixShutdown</key>
 				<true/>
 				<key>FixTMR</key>
+				<true/>
+				<key>FixUSB</key>
 				<true/>
 				<key>FixWAK</key>
 				<true/>
@@ -123,8 +137,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>dart=0 darkwake=0 -xcpm</string>
+			<key>Arguments</key>
+		<string>dart=0 darkwake=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -143,8 +157,8 @@
 		<dict>
 			<key>FixOwnership</key>
 			<false/>
-			<key>Inject</key>
-			<false/>
+			<key>HighCurrent</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -184,8 +198,6 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
-		<key>AppleRTC</key>
 		<true/>
 		<key>KernelLapic</key>
 		<true/>
@@ -301,22 +313,64 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02HV269420Y8DRVC</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
+		<data>GAuBT+Ee</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BiosReleaseDate</key>
+		<string>07/24/2019</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBA51.88Z.F000.B00.1907241136</string>
+		<key>Board-ID</key>
+		<string>Mac-2E6FAB96566FE58C</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>GENERATE_YOUR_OWN</string>
+		<string>C02HV269420Y8DRVC</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>Air-Enclosure</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x0A</string>
+		<key>EfiVersion</key>
+		<string>260.0.0.0.0</string>
+		<key>Family</key>
+		<string>MacBook Air</string>
+		<key>FirmwareFeatures</key>
+		<string>0xE00DE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<true/>
+		<key>PlatformFeature</key>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>MacBookPro10,1</string>
+		<string>MacBookAir5,2</string>
 		<key>SerialNumber</key>
-		<string>GENERATE_YOUR_OWN</string>
+		<string>C02HV2Y8DRVC</string>
 		<key>SmUUID</key>
-		<string>GENERATE_YOUR_OWN</string>
+		<string>6971AF80-C1A2-4DAF-AA25-CA3EBA517078</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>D7E032D0-97B6-44A6-8E53-6F520DFCD4F6</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
