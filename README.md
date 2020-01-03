@@ -19,6 +19,7 @@ Virtually everything.
 - Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card).
 - Microphone and microphone mute button don't register for some reason.
 - Trackpoint works maybe 10% of the time.
+- Audio usually doesn't work after sleep (requires an SSDT patch + Codec Commander or a program to restart AppleHDA.)
 - You tell me.
 
 ## Untested:
