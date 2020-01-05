@@ -28,3 +28,6 @@ Virtually everything.
 - USB Sleep Charging
 - Bluetooth Hand-Off
 - Lots of other things, I'm sure. 
+
+## Potential Setbacks:
+- X1C1 uses a proprietary Wi-Fi adapter, and has a BIOS that can only be flashed unofficially with a SOIC-8 clip. Adapters exist to convert traditional Wi-Fi cards to Lenovo's proprietary standard, but whether or not these are compatible with any possible BIOS mods is yet to be seen, and may be a discouraging factor.
