@@ -16,7 +16,7 @@ Lain's X1 Carbon Specs:
 Virtually everything.
 
 ## What Doesn't Work:
-- Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card).
+- Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card). Albeit, the WWAN adapter seems to work out of the box? I don't have a 4G SIM to test with, but macOS detects the adapter just fine.
 - Microphone and microphone mute button don't register for some reason.
 - Trackpoint works maybe 10% of the time.
 - Audio usually doesn't work after sleep (requires an SSDT patch + Codec Commander or a program to restart AppleHDA.)
