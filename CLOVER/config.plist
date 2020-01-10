@@ -137,7 +137,7 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-			<key>Arguments</key>
+		<key>Arguments</key>
 		<string>dart=0 darkwake=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
@@ -314,7 +314,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>NA</string>
+		<string>C02HTUZBDRVC69</string>
 		<key>ROM</key>
 		<data>GAuBT+Ee</data>
 	</dict>
@@ -327,11 +327,11 @@
 		<key>BiosVersion</key>
 		<string>MBA51.88Z.F000.B00.1907241136</string>
 		<key>Board-ID</key>
-		<string>NA</string>
+		<string>Mac-2E6FAB96566FE58C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>NA</string>
+		<string>C02HTUZBDRVC69</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -361,16 +361,16 @@
 		<key>ProductName</key>
 		<string>MacBookAir5,2</string>
 		<key>SerialNumber</key>
-		<string>NA</string>
+		<string>C02HTUZBDRVC</string>
 		<key>SmUUID</key>
-		<string>NA</string>
+		<string>226C52AD-5FE3-4EB9-AE37-9E9514BACC3C</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>NA</string>
+		<string>D7E032D0-97B6-44A6-8E53-6F520DFCD4F6</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
