@@ -19,7 +19,7 @@ Lain's X1 Carbon Specs:
 Virtually everything.
 
 ## What hopefully works but might not:
-- Wireless. I've added a two new kexts to the repository to try thanks to the OpenIntelWireless team, but I don't have a usable X1C1 to test this on. To my knowledge it SHOULD work as it shares a wireless card (albeit a different connector) with the X220 (Intel Centrino N-6205) that functions with the same kext. If the default kext included works and you want AirPort support, you can try to replace the "itlwm" kext in your EFI/Clover with the "AirportItlwm.kext" file in the "Other" folder of the repo. Please note that this may noticeably tank your internet speeds if it works, so I've set itlwm as the default to ensure stability/performance.
+- Wireless. I've added a two new kexts to the repository to try thanks to the OpenIntelWireless team, but I don't have a usable X1C1 to test this on. To my knowledge it SHOULD work as it shares a wireless card (albeit a different connector) with the X220 (Intel Centrino N-6205) that functions with the same kext. If the default kext included works and you want AirPort support, you can try to replace the "itlwm" kext in your EFI/Clover with the "AirportItlwm.kext" file in the "Other" folder of the repo. Please note that this may noticeably tank your internet speeds if it works, so I've set itlwm as the default to ensure stability/performance. **DO NOT USE BOTH DRIVERS AT ONCE. You'll probably crash your system.**
 
 ## What Doesn't Work:
 - Wireless (not sure if the X1C1 can be whitelisted for a custom wireless card). Albeit, the WWAN adapter seems to work out of the box? I don't have a 4G SIM to test with, but macOS detects the adapter just fine.
