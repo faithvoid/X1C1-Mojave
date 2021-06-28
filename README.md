@@ -16,14 +16,14 @@ Lain's X1 Carbon Specs:
 - Wireless Card: Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 96) 
 
 ## What Works:
-Virtually everything.
+Virtually everything except what's listed below.
 
 ## What hopefully works but might not:
 - Wireless. I've added a two new kexts to the repository to try thanks to the OpenIntelWireless team, but I don't have a usable X1C1 to test this on. To my knowledge it SHOULD work as it shares a wireless card (albeit a different connector) with the X220 (Intel Centrino N-6205) that functions with the same kext. If the default kext included works and you want AirPort support, you can try to replace the "itlwm" kext in your EFI/Clover with the "AirportItlwm.kext" file in the "Other" folder of the repo. Please note that this may noticeably tank your internet speeds if it works, so I've set itlwm as the default to ensure stability/performance. **DO NOT USE BOTH DRIVERS AT ONCE. You'll probably crash your system.**
 
 ## What Doesn't Work:
 - Microphone and microphone mute button don't register for some reason.
-- Trackpoint works maybe 10% of the time.
+- Trackpoint works maybe 10% of the time. I have zero idea as to why.
 - Audio usually doesn't work after sleep (requires an SSDT patch + Codec Commander or a program to restart AppleHDA.)
 - You tell me.
 
@@ -32,7 +32,8 @@ Virtually everything.
 - Mini-Displayport output
 - USB Sleep Charging
 - Bluetooth Hand-Off
+- Airport
 - Lots of other things, I'm sure. 
 
-## Potential Setbacks:
+## Potential Setbacks (if the recent Wi-Fi kext doesn't work):
 - X1C1 uses a proprietary Wi-Fi adapter, and has a BIOS that can only be flashed unofficially with a SOIC-8 clip. Adapters exist to convert traditional Wi-Fi cards to Lenovo's proprietary standard, but whether or not these are compatible with any possible BIOS mods is yet to be seen, and may be a discouraging factor.
