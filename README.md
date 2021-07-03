@@ -1,10 +1,7 @@
 # Lain's X1 Carbon 1st Gen macOS Repository
 A repository of information and kexts for running macOS Mojave on the X1 Carbon 1st Generation.
 
-Any discoveries and forks to get full functionality are much appreciated! As of June 28th, 2021, I can no longer provide support on any of this due to my X1C1 needing repairs (although I may just sell it for parts as I've started using an X220 again) but you can do whatever you want with these files. If you would like to donate so I can repair my X1C1 and continue testing, my PayPal is [here!](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=8GF4A3XS7ZHFY) 
-
-*Please be respectful of the fact that I may not be able to provide too much support for this. I'll update it regularly as new discoveries and modifications are made, but I very frequently take breaks from GitHub due to health issues and cannot be relied on for tech support. Consider this repo a starting point more than a finished product until stated otherwise. Thank you and stay safe!*
-
+Any discoveries and forks to get full functionality are much appreciated! As of June 28th, 2021, I can no longer provide support on any of this due to no longer having an X1C1 but you can do whatever you want with these files. I'll instead be focusing my efforts on Catalina on the Thinkpad X220. This repository will get occasional updates with ideas, but I can't test anything so be warned.
 
 Lain's X1 Carbon Specs:
 - Model: 3448A47
