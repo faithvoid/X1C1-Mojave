@@ -19,7 +19,7 @@ Lain's X1 Carbon Specs:
 Virtually everything except what's listed below.
 
 ## What hopefully works but might not:
-- Wireless. I've added a two new kexts to the repository to try thanks to the OpenIntelWireless team, but I don't have a usable X1C1 to test this on. To my knowledge it SHOULD work as it shares a wireless card (albeit a different connector) with the X220 (Intel Centrino N-6205) that functions with the same kext. If the default kext included works and you want AirPort support, you can try to replace the "itlwm" kext in your EFI/Clover with the "AirportItlwm.kext" file in the "Other" folder of the repo. Please note that this may noticeably tank your internet speeds if it works, so I've set itlwm as the default to ensure stability/performance. **DO NOT USE BOTH DRIVERS AT ONCE. You'll probably crash your system.**
+- Wireless. I've added a a new kext to the repository to try thanks to the OpenIntelWireless team (AirportItlwm wrapped in IO80211Family), but I don't have a usable X1C1 to test this on anymore. To my knowledge it SHOULD work as it shares a wireless card (albeit a different connector) with the X220 (Intel Centrino N-6205) that functions with the same kext. If you find the speeds undesirable or unstable, you can replace it with Itlwm instead (remember to make a new OpenCore snapshot whenever you replace kexts!)
 
 ## What Doesn't Work:
 - Microphone and microphone mute button don't register for some reason.
@@ -30,7 +30,6 @@ Virtually everything except what's listed below.
 ## Untested:
 - Facetime / iMessage / etc. (I don't have an iPhone to use iMessage with so YMMV. You'll most likely need an intricate knowledge of modifying your config.plist with valid serial numbers to get either of these to work, as I've never gotten this to work on the first attempt of any Hackintosh.)
 - Mini-Displayport output
-- USB Sleep Charging
 - Bluetooth Hand-Off
 - Airport
 - Lots of other things, I'm sure. 
