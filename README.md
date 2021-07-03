@@ -32,6 +32,7 @@ Virtually everything except what's listed below.
 - Mini-Displayport output
 - Bluetooth Hand-Off
 - Airport
+- Upgrading to Catalina / Big Sur / Monterey (these all SHOULD work in theory but probably require a newer Clover / OpenCore).
 - Lots of other things, I'm sure. 
 
 ## Potential Setbacks (if the recent Wi-Fi kext doesn't work):
